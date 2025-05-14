@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 // Initialize Supabase client with environment variables
 const supabaseUrl = process.env.REACT_APP_SUPABASE_URL;
 const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY;
-const siteUrl = process.env.REACT_APP_SITE_URL || 'https://plumai.xyz';
+const siteUrl = process.env.REACT_APP_SITE_URL || 'https://supabase-twitter-ruby.vercel.app';
 
 // Use actual values to ensure it works in production
 const supabase = createClient(
